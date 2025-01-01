@@ -78,7 +78,7 @@ const Footer = () => {
                                     <span>
                                         <i class = "ri-mail-line"></i>
                                     </span>
-                                    <p>ibrahim shebl@gmail.com</p>
+                                    <p>ibra7im.shebl@gmail.com</p>
                                 </ListGroupItem>
                             </ListGroup>
                         </div>

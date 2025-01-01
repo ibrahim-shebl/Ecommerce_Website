@@ -59,12 +59,14 @@ const  Header = () => {
         <Container>
             <Row>
                 <div className="nav-wrapper">
+                    <Link to='/'>
                     <div className="logo">
                         <img src={logo} alt="" />
                         <div>
                             <h1>Smart Center</h1>
                         </div>
                     </div>
+                    </Link>
                     <div className="navigation" ref={menuRef} onClick={menuToggle}>
                         <ul className="menu">
                             {nav_link.map((item,index)=> (
@@ -78,7 +80,7 @@ const  Header = () => {
                     <div className="nav_icon">
                         <span className="fav_icon">
                             <i class="ri-heart-line"></i>
-                            <span className = "badge">2</span>
+                            <span className = "badge">0</span>
                         </span>
                         <span className="cart_icon" onClick={navigateToCart}>
                             <i class="ri-shopping-bag-line"></i>
